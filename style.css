@@ -154,7 +154,7 @@ header nav a:hover {
   margin: 2% 1%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 200px) {
   .card {
     width: calc(50% - 2% * 2);
   }
@@ -276,17 +276,36 @@ header nav a:hover {
   .cont {
     text-align: center;
   }
+  .cont h1 {
+    font-size: 25px;
+  }
   .popm {
     text-align: center;
+  }
+  .popm h1 {
+    font-size: 25px;
   }
   .pops {
     text-align: center;
   }
+  .pops h1 {
+    font-size: 25px;
+  }
   .fem {
     text-align: center;
   }
+  .fem h1 {
+    font-size: 25px;
+  }
   .fes {
     text-align: center;
+  }
+  .fes h1 {
+    font-size: 25px;
+  }
+  .gen h1 {
+    text-align: center;
+    font-size: 25px;
   }
 }
 
@@ -359,7 +378,7 @@ footer {
 
 footer > h2 {
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
   opacity: 0.3;
 }
